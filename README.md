@@ -1,15 +1,24 @@
-# Multilingual Text Classification notebook
+# Text Language Classification 🌍
 
-## Overview
+An academic project to **classify the language of a given text** using Python, NumPy, pandas, scikit-learn, and other handy libraries. Perfect for learning text preprocessing, feature extraction, and classical machine learning! 🚀
 
-This repository contains a notebook dedicated to **text classification**, specifically focused on **language detection**. The notebook utilizes various natural language processing (NLP) techniques and machine learning algorithms to build a model capable of detecting the language of a given text. The model has been trained using a dataset from Kaggle.
+## Features ✨
+- Text preprocessing with regex and tokenization
+- Feature extraction using `CountVectorizer`
+- Classification with **Multinomial Naive Bayes**
+- Evaluation with accuracy score and confusion matrix
+- Visualization of results with Matplotlib
 
-## Dataset
+## How it Works 🧩
+1. Text preprocessing: Clean text using regex and remove unwanted characters.
+2. Feature extraction: Convert text into numerical vectors with CountVectorizer.
+3. Model training: Train a Multinomial Naive Bayes classifier on the training set.
+4. Evaluation: Check predictions on the test set with accuracy and visualizations.
 
-The model was trained using the following dataset: https://www.kaggle.com/datasets/basilb2s/language-detection
+This pipeline is simple, interpretable, and turned out being very effective for language classification tasks.
 
-This dataset contains a collection of 10K text samples written in 17 different languages, providing the necessary data for training and evaluating the language detection model.
+## Contributing 🤝
+Feel free to fork this repo, improve the code, or experiment with other activation functions and learning rates!
 
-## Trained models
-
-All the trained models can be accessed here: https://huggingface.co/datasets/csebuetnlp/xlsum.
+## License 📄
+This project is under MIT license.
